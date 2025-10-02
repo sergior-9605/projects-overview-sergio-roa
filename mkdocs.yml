@@ -1,0 +1,38 @@
+site_name: Sergio Roa Portfolio
+theme:
+  name: material
+  language: en  # default languaje
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix  # Esta es la clave
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Home: Inicio
+            About Me: Sobre Mí
+            Projects: Proyectos
+            Overview: Resumen
+            Experience: Experiencia
+            Skills: Habilidades
+            Contact: Contacto
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Projects:
+      - Overview: projects/index.md
+      - Project 1: projects/project1.md
+      - Project 2: projects/project2.md
+      - Project 3: projects/project3.md
+      - Project 4: projects/project4.md
+  - Experience: experience.md
+  - Skills: skills.md
+  - Contact: contact.md
