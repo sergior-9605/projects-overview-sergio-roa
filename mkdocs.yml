@@ -17,16 +17,15 @@ plugins:
           build: true
           nav_translations:
             Home: Inicio
-            About Me: Sobre Mí
             Projects: Proyectos
             Overview: Resumen
             Experience: Experiencia
             Skills: Habilidades
+            Education: Educación
             Contact: Contacto
 
 nav:
   - Home: index.md
-  - About Me: about.md
   - Projects:
       - Overview: projects/index.md
       - Project 1: projects/project1.md
@@ -35,4 +34,5 @@ nav:
       - Project 4: projects/project4.md
   - Experience: experience.md
   - Skills: skills.md
+  - Education: education.md
   - Contact: contact.md

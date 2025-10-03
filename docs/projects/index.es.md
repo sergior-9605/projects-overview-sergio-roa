@@ -5,7 +5,7 @@ Aquí encontrarás una colección de mis proyectos profesionales y personales. C
 ---
 
 ## 📌 Proyectos destacados
-- [Luciana – HR Platform](luciana.md) → Portal digital de empleos
-- [Luciana – HR Platform](luciana-front.md) → Portal digital de empleos (Frontend renovado desde cero)  
-- [Luciana - Payroll Api](payroll-api.md) → API para gestión de nómina
-- [Agroup - Smart Agriculture Platform](agroup.md) → Plataforma integral de datos ambientales  
+- [Luciana – Plataforma RH](luciana.md) → Portal digital de empleos
+- [Luciana – Plataforma RH](luciana-front.md) → Portal digital de empleos (Frontend renovado desde cero)  
+- [Nómina Api](payroll-api.md) → API para gestión de nómina
+- [Agroup - Plataforma Agricultura inteligente](agroup.md) → Plataforma integral de datos ambientales  
