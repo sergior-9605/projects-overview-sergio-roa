@@ -23,7 +23,7 @@ Role focused on the **development, maintenance, and functional validation of cri
 
 - ⚡ **Critical Query Optimization:**  
   Replaced inefficient ApiHandler queries with optimized Laravel ORM queries.  
-  → Result: Reduced response times from **15s to 2–3s** and result payloads from **10MB to 1.2MB**.  
+  → Result: Reduced response times from **15s to 2–3s** and result payloads from **15-20MB to 1.2MB**.  
   → Impact: Eliminated server saturation and enabled seamless remote work.  
 
 - 🎯 **Hiring Workflow Automation:**  
@@ -38,7 +38,7 @@ Role focused on the **development, maintenance, and functional validation of cri
   Documents uploaded by candidates were reused across multiple processes, eliminating duplication and improving efficiency.  
 
 - 📊 **Real-Time Reporting:**  
-  Developed reports for audits, recruiter tracking, and hiring control, replacing BI tools that updated weekly with **real-time data**.  
+  Creation of audit reports, monitoring of psychologists/recruiters, and hiring control with real-time data, complementing the BI that was updated weekly.  
 
 - 📂 **Mass Excel Upload:**  
   Feature that registered dozens of candidates in seconds, saving hours of work during job fairs and corporate visits.  

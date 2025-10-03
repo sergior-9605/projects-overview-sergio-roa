@@ -23,7 +23,7 @@ Rol enfocado en el **desarrollo, mantenimiento y validación funcional de sistem
 
 - ⚡ **Optimización Crítica de Consultas:**  
   Reemplacé consultas ineficientes realizadas con ApiHandler por consultas optimizadas en el ORM de Laravel.  
-  → Resultado: de **15s a 2–3s** en tiempos de respuesta y de **10MB a 1.2MB** en peso de resultados.  
+  → Resultado: de **15s a 2–3s** en tiempos de respuesta y de **15-20MB a 1.2MB** en peso de resultados.  
   → Impacto: Eliminación de la saturación del servidor y habilitación del trabajo remoto sin interrupciones.  
 
 - 🎯 **Automatización del Flujo de Contratación:**  
@@ -38,7 +38,7 @@ Rol enfocado en el **desarrollo, mantenimiento y validación funcional de sistem
   Los documentos cargados por los candidatos se reutilizaban en múltiples procesos, eliminando duplicidad y mejorando la eficiencia.  
 
 - 📊 **Informes en Tiempo Real:**  
-  Creación de reportes para auditorías, seguimiento de psicólogos/reclutadores y control de contrataciones, reemplazando BI que se actualizaba semanalmente por datos en tiempo real.  
+  Creación de reportes para auditorías, seguimiento de psicólogos/reclutadores y control de contrataciones con datos en tiempo real, complementando el BI que se actualizaba semanalmente.  
 
 - 📂 **Carga Masiva desde Excel:**  
   Desarrollo de una funcionalidad que permitía registrar decenas de candidatos en segundos, ahorrando horas de trabajo en ferias y visitas empresariales.  
