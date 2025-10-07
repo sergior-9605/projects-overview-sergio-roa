@@ -28,10 +28,10 @@ nav:
   - Home: index.md
   - Projects:
       - Overview: projects/index.md
-      - Project 1: projects/project1.md
-      - Project 2: projects/project2.md
-      - Project 3: projects/project3.md
-      - Project 4: projects/project4.md
+      - Luciana: projects/luciana.md
+      - Luciana front: projects/luciana-front.md
+      - Payroll api: projects/payroll-api.md
+      - Agroup: projects/agroup.md
   - Experience: experience.md
   - Skills: skills.md
   - Education: education.md
