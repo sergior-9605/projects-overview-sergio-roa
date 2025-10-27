@@ -1,0 +1,822 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://sergior-9605.github.io/projects-overview-sergio-roa/es/projects/luciana-front/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>🚀 Modernización del Frontend: Migración de Angular v2 a v19 - Sergio Roa Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modernizacion-del-frontend-migracion-de-angular-v2-a-v19" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../" title="Sergio Roa Portfolio" class="md-header__button md-logo" aria-label="Sergio Roa Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sergio Roa Portfolio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🚀 Modernización del Frontend: Migración de Angular v2 a v19
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../projects/luciana-front/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Sergio Roa Portfolio" class="md-nav__button md-logo" aria-label="Sergio Roa Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Sergio Roa Portfolio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Proyectos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Proyectos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../luciana/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Luciana
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payroll-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Payroll api
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agroup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agroup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experience/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Experiencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Habilidades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../education/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Educación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contacto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resumen-y-contexto-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      📖 Resumen y Contexto del Proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnologias-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Tecnologías Clave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mi-rol-y-responsabilidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Mi Rol y Responsabilidades
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquitectura-propuesta" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏛️ Arquitectura Propuesta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principios-clave-de-la-arquitectura" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑 Principios Clave de la Arquitectura
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desafios-tecnicos-y-soluciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Desafíos Técnicos y Soluciones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧠 Desafíos Técnicos y Soluciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-planificacion-de-una-migracion-sin-interrumpir-el-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Planificación de una Migración sin Interrumpir el Negocio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-eliminacion-de-inconsistencias-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Eliminación de Inconsistencias de Datos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-optimizacion-radical-del-rendimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Optimización Radical del Rendimiento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logros-y-resultados-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏆 Logros y Resultados Clave
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#galeria-de-mejoras-visuales-y-de-calidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      🖼️ Galería de Mejoras Visuales y de Calidad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflexion-y-aprendizajes" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Reflexión y Aprendizajes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="modernizacion-del-frontend-migracion-de-angular-v2-a-v19">🚀 Modernización del Frontend: Migración de Angular v2 a v19</h1>
+<h2 id="resumen-y-contexto-del-proyecto">📖 Resumen y Contexto del Proyecto</h2>
+<p>Este documento detalla el proyecto de <strong>modernización del frontend</strong> para la plataforma <strong>Luciana</strong>, migrando una base de código heredada en <strong>Angular v2</strong> a una arquitectura moderna con <strong>Angular 19</strong>.</p>
+<p>El frontend original, aunque funcional, presentaba desafíos que impactaban la velocidad de desarrollo, el rendimiento y la escalabilidad. Los principales problemas eran:</p>
+<ul>
+<li><strong>Deuda Técnica Acumulada:</strong> Lógica de negocio compleja y fuertemente acoplada en los componentes.  </li>
+<li><strong>Rendimiento Deficiente:</strong> Tiempos de carga lentos que afectaban la experiencia del usuario.  </li>
+<li><strong>Experiencia de Desarrollo (DX) Obsoleta:</strong> Ecosistema de herramientas anticuado que ralentizaba la depuración y la innovación.  </li>
+<li><strong>Riesgos de Seguridad:</strong> Dependencias desactualizadas y sin soporte oficial.  </li>
+</ul>
+<p>El objetivo fue <strong>ejecutar una reescritura estratégica</strong> para sentar bases sólidas para el futuro de la plataforma.</p>
+<hr />
+<h2 id="tecnologias-clave">🛠️ Tecnologías Clave</h2>
+<ul>
+<li><strong>Lenguajes:</strong> TypeScript, SCSS, HTML5  </li>
+<li><strong>Framework y Librerías:</strong> Angular 19, RxJS, PrimeNG  </li>
+<li><strong>Arquitectura:</strong> Modular, Carga Perezosa (Lazy Loading), Standalone Components  </li>
+<li><strong>Gestión de Estado:</strong> Servicios Reactivos con RxJS (<code>BehaviorSubject</code>)  </li>
+<li><strong>Herramientas:</strong> Angular CLI, Visual Studio Code, Git</li>
+</ul>
+<hr />
+<h2 id="mi-rol-y-responsabilidades">🎯 Mi Rol y Responsabilidades</h2>
+<p>Como <strong>Líder Técnico y Desarrollador Principal</strong>, mis responsabilidades clave fueron:</p>
+<ol>
+<li>
+<p>🏛️ <strong>Diseño de Arquitectura y Planificación:</strong><br />
+   Lideré la investigación y definición de la nueva arquitectura del frontend. Diseñé la hoja de ruta de migración, seleccioné herramientas y establecí las mejores prácticas para el equipo.</p>
+</li>
+<li>
+<p>🧪 <strong>Prueba de Concepto (PoC):</strong><br />
+   Desarrollé una PoC para validar la integración de la nueva aplicación (v19) con el backend existente, permitiendo una migración incremental sin afectar los servicios actuales.</p>
+</li>
+<li>
+<p>🏗️ <strong>Desarrollo del Núcleo de la Aplicación:</strong><br />
+   Implementé la estructura base, incluyendo módulos compartidos, servicios transversales (autenticación, gestión de estado con RxJS), interceptores HTTP y guardias de rutas.</p>
+</li>
+<li>
+<p>🚀 <strong>Liderazgo en la Migración de Módulos:</strong><br />
+   Guié y participé activamente en la reescritura de los primeros módulos clave, estableciendo un estándar de código y demostrando valor tangible desde las primeras etapas.</p>
+</li>
+</ol>
+<hr />
+<h2 id="arquitectura-propuesta">🏛️ Arquitectura Propuesta</h2>
+<p>Diseñé una arquitectura <strong>modular y escalable</strong>, centrada en el rendimiento y la mantenibilidad a largo plazo.</p>
+<pre class="mermaid"><code>graph TD
+  subgraph Angular_19_App
+    A[App Module]
+    B_core[Core Module]
+    C_shared[Shared Module]
+    D_features[Feature Modules - Lazy Loaded]
+
+    A --&gt; B_core
+    A --&gt; C_shared
+    A --&gt; D_features
+
+    B1_auth[Auth Guard]
+    B2_http[Http Interceptor]
+    B3_services[Servicios Singleton]
+
+    B_core --&gt; B1_auth
+    B_core --&gt; B2_http
+    B_core --&gt; B3_services
+
+    C1_ui[Componentes UI]
+    C2_pipes[Pipes y Directivas]
+
+    C_shared --&gt; C1_ui
+    C_shared --&gt; C2_pipes
+
+    D1_login[Login Module]
+    D2_dashboard[Dashboard Module]
+    D3_candidatos[Candidatos Module]
+
+    D_features --&gt; D1_login
+    D_features --&gt; D2_dashboard
+    D_features --&gt; D3_candidatos
+  end
+
+  E_api[API Backend]
+  B2_http --&gt;|Realiza llamadas| E_api
+</code></pre>
+<h2 id="principios-clave-de-la-arquitectura">🔑 Principios Clave de la Arquitectura</h2>
+<ul>
+<li><strong>Carga Perezosa (Lazy Loading):</strong> Los módulos de funcionalidades solo se cargan bajo demanda, reduciendo drásticamente el tiempo de carga inicial y mejorando el <em>First Contentful Paint (FCP)</em>.  </li>
+<li><strong>Componentes Reutilizables:</strong> Creación de una librería de componentes agnósticos en el <code>SharedModule</code> para mantener la consistencia visual (<em>look and feel</em>) y acelerar el desarrollo.  </li>
+<li><strong>Gestión de Estado Reactiva:</strong> Uso de servicios con <strong>RxJS (BehaviorSubject)</strong> para manejar el estado como una fuente única de verdad, garantizando la consistencia de datos en toda la aplicación.  </li>
+<li><strong>Separación de Responsabilidades (SoC):</strong> La lógica de negocio fue aislada en servicios, permitiendo que los componentes se centraran exclusivamente en la presentación y la interacción del usuario.  </li>
+</ul>
+<hr />
+<h2 id="desafios-tecnicos-y-soluciones">🧠 Desafíos Técnicos y Soluciones</h2>
+<h3 id="1-planificacion-de-una-migracion-sin-interrumpir-el-negocio">1. Planificación de una Migración sin Interrumpir el Negocio</h3>
+<p><strong>Desafío:</strong> La aplicación era un monolito. Reescribirla por completo era inviable debido al riesgo y al tiempo requerido.<br />
+<strong>Solución:</strong> Propuse una <strong>estrategia de migración modular e incremental</strong>. Identifiqué los módulos más críticos y aislados (Autenticación, Dashboard) para migrarlos primero. Esto permitió demostrar valor rápidamente y crear una base sólida sobre la cual construir, minimizando el riesgo.</p>
+<hr />
+<h3 id="2-eliminacion-de-inconsistencias-de-datos">2. Eliminación de Inconsistencias de Datos</h3>
+<p><strong>Desafío:</strong> En la versión v2, los datos eran inconsistentes entre diferentes vistas, causando bugs y confusión al usuario.<br />
+<strong>Solución:</strong> Implementé un <strong>patrón de gestión de estado reactivo</strong>. Creé servicios que actuaban como la única fuente de verdad (por ejemplo, <code>UsuarioService</code>).<br />
+Los componentes se suscribían a <em>observables</em> de estos servicios. Cuando un dato cambiaba (por ejemplo, el perfil del usuario), todos los componentes suscritos se actualizaban automáticamente, garantizando la consistencia en tiempo real.</p>
+<hr />
+<h3 id="3-optimizacion-radical-del-rendimiento">3. Optimización Radical del Rendimiento</h3>
+<p><strong>Desafío:</strong> La plataforma antigua sufría de tiempos de carga de más de 10 segundos.<br />
+<strong>Solución:</strong> Aproveché las optimizaciones nativas de <strong>Angular 19</strong>. La <strong>compilación AOT (Ahead-of-Time)</strong> y el <strong>tree-shaking</strong> redujeron el tamaño del paquete JavaScript inicial en aproximadamente un <strong>80%</strong>.<br />
+Combinado con la <strong>carga perezosa</strong>, los módulos migrados cargaban de forma casi instantánea.</p>
+<hr />
+<h2 id="logros-y-resultados-clave">🏆 Logros y Resultados Clave</h2>
+<p>Aunque el proyecto global de migración se pausó por una decisión estratégica de la compañía, la fase que lideré fue un éxito rotundo y sentó las bases para el futuro.</p>
+<p>✅ <strong>Arquitectura Base Completada al 100%:</strong><br />
+Se finalizó la estructura del nuevo proyecto, incluyendo un sistema de autenticación robusto, interceptores, guardias y módulos compartidos.  </p>
+<p>🚀 <strong>Módulos Críticos Migrados y Funcionales:</strong><br />
+- Autenticación y Login<br />
+- Dashboard Principal<br />
+- Portal de Candidatos (Consulta y Gestión Documental)<br />
+- Requisiciones<br />
+- Operaciones<br />
+- Contratos  </p>
+<p>📊 <strong>Mejoras de Rendimiento Cuantificables:</strong><br />
+- Reducción del tiempo de carga inicial (<em>First Contentful Paint</em>) en un <strong>~70%</strong> en los módulos migrados.<br />
+- Navegación entre vistas prácticamente instantánea, eliminando la fricción del usuario.  </p>
+<p>💡 <strong>Prueba de Concepto Validada:</strong><br />
+El trabajo sirvió como una <strong>PoC exitosa</strong>, dejando una hoja de ruta clara y una base de código moderna lista para ser retomada.</p>
+<hr />
+<h2 id="galeria-de-mejoras-visuales-y-de-calidad">🖼️ Galería de Mejoras Visuales y de Calidad</h2>
+<p>Esta galería muestra el impacto multifacético del proyecto, enfocándose en la experiencia de usuario y la calidad del código.</p>
+<table>
+<thead>
+<tr>
+<th>Maqueta de la Nueva UI (Conceptual)</th>
+<th>Calidad y Buenas Prácticas (Lighthouse)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Nueva UI" src="../../../assets/projects/luciana-front/img/requisitions.png" style="border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" width="350" /></td>
+<td><img alt="Lighthouse" src="../../../assets/projects/luciana-front/img/score.png" style="border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" width="350" /></td>
+</tr>
+<tr>
+<td><strong>Librería de Componentes (PrimeNG)</strong></td>
+<td><strong>Refactorización de Código</strong></td>
+</tr>
+<tr>
+<td><img alt="Login Candidate" src="../../../assets/projects/luciana-front/img/login-candidate.png" style="border-radius:8px;" width="160" /> <img alt="Login" src="../../../assets/projects/luciana-front/img/login.png" style="border-radius:8px;" width="160" /> <img alt="Modal" src="../../../assets/projects/luciana-front/img/modal.png" style="border-radius:8px;" width="160" /> <img alt="Modal v2" src="../../../assets/projects/luciana-front/img/modal_v2.png" style="border-radius:8px;" width="160" /></td>
+<td><img alt="Refactorización" src="../../../assets/projects/luciana-front/img/difference_code.png" style="border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" width="350" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="reflexion-y-aprendizajes">💡 Reflexión y Aprendizajes</h2>
+<p>Este proyecto fue un desafío de gran envergadura que consolidó mis habilidades en <strong>arquitectura de software frontend</strong>, <strong>planificación estratégica</strong> y <strong>liderazgo técnico</strong>.<br />
+Aprendí a gestionar la complejidad de modernizar sistemas heredados, a tomar decisiones críticas sobre el stack tecnológico y a demostrar el valor de la inversión en tecnología a través de resultados medibles.  </p>
+<p>La base que construimos dejó a la plataforma en una posición mucho más fuerte para su futura evolución.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
